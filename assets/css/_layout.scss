@@ -1,0 +1,24 @@
+body {
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+}
+
+main {
+  margin-top: 32px;
+}
+
+.container {
+  width: 1020px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.list {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 15px;
+}
